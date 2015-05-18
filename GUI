@@ -1,0 +1,15 @@
+import javax.swing.*;
+
+class GUI extends JFrame {
+	
+	public GUI(){
+		
+		JFrame frame = new JFrame("Acrylic Shadow // GOMARI");
+		frame.setDefaultCloseOperation (JFrame.EXIT_ON_CLOSE);
+		frame.getContentPane().add(new buttons());
+		frame.setSize(600,400);	
+		frame.setVisible(true);	
+			
+	}
+	
+}
