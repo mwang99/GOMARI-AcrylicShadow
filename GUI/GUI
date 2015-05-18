@@ -6,7 +6,7 @@ class GUI extends JFrame {
 		
 		JFrame frame = new JFrame("Acrylic Shadow // GOMARI");
 		frame.setDefaultCloseOperation (JFrame.EXIT_ON_CLOSE);
-		frame.getContentPane().add(new buttons());
+		frame.getContentPane().add(new Buttons());
 		frame.setSize(600,400);	
 		frame.setVisible(true);	
 			
