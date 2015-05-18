@@ -2,13 +2,14 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-class buttons extends JPanel {
+class Buttons extends JPanel {
 	
 	public Buttons(){
 		
 		welcomeLabel = new JLabel("Welcome to AcrylicShadow by GOMARI");
 		
 		registerButton = new JButton("Register");
+		registerButton.setBounds(50,50,50,50);		
 		loginButton = new JButton("Login");	
 		adminButton = new JButton("Admin Access");
 		
