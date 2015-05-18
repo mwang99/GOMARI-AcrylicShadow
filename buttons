@@ -1,0 +1,28 @@
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+class buttons extends JPanel {
+	
+	public buttons(){
+		
+		welcomeLabel = new JLabel("Welcome to AcrylicShadow by GOMARI");
+		
+		registerButton = new JButton("Register");
+		registerButton.setBounds(50,50,50,50);		
+		loginButton = new JButton("Login");	
+		adminButton = new JButton("Admin Access");
+		
+		add(welcomeLabel);	
+		add(registerButton);
+		add(loginButton);
+		add(adminButton);
+
+	}
+
+private JLabel welcomeLabel;
+private JButton loginButton;
+private JButton registerButton;
+private JButton adminButton;
+	
+}
