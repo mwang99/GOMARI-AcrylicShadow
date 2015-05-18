@@ -4,12 +4,11 @@ import javax.swing.*;
 
 class buttons extends JPanel {
 	
-	public buttons(){
+	public Buttons(){
 		
 		welcomeLabel = new JLabel("Welcome to AcrylicShadow by GOMARI");
 		
 		registerButton = new JButton("Register");
-		registerButton.setBounds(50,50,50,50);		
 		loginButton = new JButton("Login");	
 		adminButton = new JButton("Admin Access");
 		
