@@ -6,11 +6,11 @@ class RegisterButtons extends JPanel {
 	
 	public RegisterButtons(){
 		
-		welcomeLabel = new JLabel("Register Buttons");
+		welcomeLabel = new JLabel("Register");
 		
-		firstNameArea = new JTextArea("");
-		lastNameArea = new JTextArea("");
-		idArea = new JTextArea("");
+		firstNameArea = new JTextField(12);
+		lastNameArea = new JTextField(12);
+		idArea = new JTextField(12);
 		
 		confirmButton = new JButton("Confirm Registration");	
 		
@@ -24,8 +24,8 @@ class RegisterButtons extends JPanel {
 
 private JLabel welcomeLabel;
 private JButton confirmButton;
-private JTextArea firstNameArea;
-private JTextArea lastNameArea;
-private JTextArea idArea;
+private JTextField firstNameArea;
+private JTextField lastNameArea;
+private JTextField idArea;
 	
 }
