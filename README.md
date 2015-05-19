@@ -1,4 +1,5 @@
 #To Do List:
-#
-#GUI - Max
-#AttendanceClock - Ridwan
+
+GUI - Max / Ridwan
+AttendanceClock - Ridwan
+Data - Gowtham
