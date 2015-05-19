@@ -7,7 +7,7 @@ class Login extends JFrame {
 		JFrame frame = new JFrame("Login");
 		frame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
 		frame.getContentPane().add(new LoginButtons());
-		frame.setSize(600,500);	
+		frame.setSize(300,75);	
 		frame.setVisible(true);	
 			
 	}
