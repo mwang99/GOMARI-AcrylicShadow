@@ -7,7 +7,7 @@ class Register extends JFrame {
 		JFrame frame = new JFrame("Register");
 		frame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
 		frame.getContentPane().add(new RegisterButtons());
-		frame.setSize(600,500);	
+		frame.setSize(300,300);	
 		frame.setVisible(true);	
 			
 	}
