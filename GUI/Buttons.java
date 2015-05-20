@@ -9,7 +9,6 @@ class Buttons extends JPanel {
 		welcomeLabel = new JLabel("Welcome to AcrylicShadow by GOMARI");
 		
 		registerButton = new JButton("Register");
-		registerButton.setBounds(50,50,50,50);		
 		loginButton = new JButton("Login");	
 		adminButton = new JButton("Admin Access");
 		
