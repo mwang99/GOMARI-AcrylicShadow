@@ -4,6 +4,9 @@ public class AcrylicShadow {
 
 		new GUI();
 		new Register();
+		new Login();
+		new AdminLogin();
+		new ClockInOut();
 
     }
 }
