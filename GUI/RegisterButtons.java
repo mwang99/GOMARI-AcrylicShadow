@@ -13,6 +13,10 @@ class RegisterButtons extends JPanel {
 		lastNameArea = new JTextField(12);
 		idArea = new JTextField(12);
 		
+		firstNameLabel = new JLabel("First Name:");
+		lastNameLabel = new JLabel("Last Name: ");
+		idLabel = new JLabel("ID: ");
+		
 		confirmButton = new JButton("Confirm Registration");	
 		
 		add(welcomeLabel);
