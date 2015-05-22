@@ -2,11 +2,10 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-class buttonsListener implements ActionListener {
+class ButtonsListener implements ActionListener {
 	
 	public void actionPerformed (ActionEvent event) {
-
-		
+			new Register();
 	}	
 		
 }
