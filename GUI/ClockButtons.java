@@ -8,8 +8,13 @@ class ClockButtons extends JPanel {
 		
 		welcomeLabel = new JLabel("Clock In/Out");
 
+		ClockInListener() ci = new ClockInListener();
+		ClockOutListener() co = new ClockOutListener();
+
 		inButton = new JButton("Clock In");
+		inButton.addActionListener(ci);
 		outButton = new JButton("Clock Out");	
+		outButton.addActionListener(co);
 		
 		add(welcomeLabel);
 		add(inButton);
