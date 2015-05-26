@@ -8,9 +8,12 @@ class LoginButtons extends JPanel {
 		
 		welcomeLabel = new JLabel("Login");
 		
+		ClockListener c = new ClockListener();
+			
 		idArea = new JTextField(12);
 		
 		confirmButton = new JButton("Login");	
+		confirmButton.addActionListener(c);
 		
 		add(welcomeLabel);
 		add(idArea);
