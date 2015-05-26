@@ -7,12 +7,17 @@ class Buttons extends JPanel {
 	public Buttons(){
 		
 		welcomeLabel = new JLabel("Welcome to AcrylicShadow by GOMARI");
+		
 		RegisterListener r = new RegisterListener();
+		LoginListener l = new LoginListener();
+		AdminLoginListener a = new AdminLoginListener();
 		
 		registerButton = new JButton("Register");
 		registerButton.addActionListener(r);
 		loginButton = new JButton("Login");	
+		loginButton.addActionListener(l);
 		adminButton = new JButton("Admin Access");
+		adminButton.addActionListener(a);
 		
 		add(welcomeLabel);	
 		add(registerButton);
