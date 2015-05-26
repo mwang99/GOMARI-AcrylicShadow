@@ -6,16 +6,12 @@ class AdminLoginButtons extends JPanel {
 	
 	public AdminLoginButtons(){
 		
-		adminMenu = new JMenuBar("Administrator Menu");
-		adminMenu.add("File");
-		
 		welcomeLabel = new JLabel("Administrative Login");
 		
 		idArea = new JTextField(12);
 		
 		confirmButton = new JButton("Login");	
 		
-		add(adminMenu);
 		add(welcomeLabel);
 		add(idArea);
 		add(confirmButton);
@@ -25,5 +21,4 @@ class AdminLoginButtons extends JPanel {
 private JLabel welcomeLabel;
 private JButton confirmButton;
 private JTextField idArea;
-private JMenuBar adminMenu;
 }
