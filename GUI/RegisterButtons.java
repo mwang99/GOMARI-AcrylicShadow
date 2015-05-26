@@ -8,6 +8,7 @@ class RegisterButtons extends JPanel {
 		
 		welcomeLabel = new JLabel("Register");
 		
+		LoginListener l = new LoginListener();
 		
 		firstNameArea = new JTextField(12);
 		lastNameArea = new JTextField(12);
@@ -18,6 +19,7 @@ class RegisterButtons extends JPanel {
 		idLabel = new JLabel("ID: ");
 		
 		confirmButton = new JButton("Confirm Registration");	
+		confirmButton.addActionListener(l);
 		
 		add(welcomeLabel);
 		add(firstNameLabel);
