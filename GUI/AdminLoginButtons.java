@@ -21,4 +21,5 @@ class AdminLoginButtons extends JPanel {
 private JLabel welcomeLabel;
 private JButton confirmButton;
 private JTextField idArea;
+
 }
