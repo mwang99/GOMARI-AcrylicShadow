@@ -10,7 +10,6 @@ public class Employee extends Person
     private ArrayList<Data> attendance;
     private int idNum;
     private int dataNum;
-    private static Final Date  ;
     /**
      * Constructor for objects of class Employee
      */
@@ -36,4 +35,3 @@ public class Employee extends Person
         attendance.get(dataNum).checkOutTime();
     }
 }
-
