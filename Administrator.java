@@ -1,8 +1,8 @@
 public class Administrator extends Person
 {
-	public Administrator (String firstname, String lastname, String tempUserName, String tempPassword)
+	public Administrator (String firstname, String lastname, int tempIdNum, String tempUserName, String tempPassword)
 	{
-		super(firstname, lastname);
+		super(firstname, lastname, tempIdNum);
 		username = tempUserName;
 	}
 	public String getUsername()
