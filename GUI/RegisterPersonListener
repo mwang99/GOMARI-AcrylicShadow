@@ -1,0 +1,14 @@
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+class RegisterPersonListener extends RegisterButtons implements ActionListener {
+	
+	public void actionPerformed (ActionEvent event) {
+			Employee temp = new Employee(super.firstName, super.lastName, super.idNum);
+			System.out.println(temp.getFirstName());
+	}	
+		
+}
+
+
