@@ -2,7 +2,7 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-class RegisterButtons extends JPanel {
+class RegisterButtons extends JPanel implements ActionListener{
 	
 	public RegisterButtons(){
 		
@@ -19,6 +19,10 @@ class RegisterButtons extends JPanel {
 		idLabel = new JLabel("ID: ");
 		
 		confirmButton = new JButton("Confirm Registration");	
+		String firstName = firstNameLabel.getText().toString();
+		String lastName = lastNameLabel.getText().toString();
+		int idNum = Integer.parseInt(firstNameLabel.getText().toString());
+		//confirmButton.addActionListener();
 		confirmButton.addActionListener(l);
 		
 		add(welcomeLabel);
@@ -32,6 +36,9 @@ class RegisterButtons extends JPanel {
 		
 	}
 
+	public void actionPerformed(ActionEvent e) { 
+       System.out.println("Cat");
+    }
 private JLabel welcomeLabel;
 private JLabel firstNameLabel;
 private JLabel lastNameLabel;
